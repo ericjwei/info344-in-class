@@ -37,7 +37,7 @@ func main() {
 	addr := os.Getenv("ADDR")
 	if len(addr) == 0 {
 		addr = ":443"
-	}
+	} 
 
 	tlskey := os.Getenv("TLSKEY")
 	tlscert := os.Getenv("TLSCERT")
